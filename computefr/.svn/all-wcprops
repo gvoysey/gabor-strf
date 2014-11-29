@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr
+END
+computefr.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/computefr.m
+END
+getplotsong.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getplotsong.m
+END
+getsong.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getsong.m
+END
+getfr.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getfr.m
+END
+getplotstrf.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getplotstrf.m
+END
+getstrf.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getstrf.m
+END
+setparams.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/setparams.m
+END
+getsongspec.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getsongspec.m
+END
+getstrfparams.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/software/!svn/ver/356/gabor_strf/dev/testing/computefr/getstrfparams.m
+END

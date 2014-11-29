@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template
+END
+display.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/display.m
+END
+parse.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/parse.m
+END
+template.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/template.m
+END
+set.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/set.m
+END
+char.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/char.m
+END
+get.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/346/gabor_strf/dev/testing/docs/m2html/@template/get.m
+END

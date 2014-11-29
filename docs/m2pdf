@@ -1,0 +1,6 @@
+# a quick bash script to generate a pdf version of the gabor_strf source tree.
+# requires the programs a2ps and ps2pdf.
+
+a2ps --medium=letter -C --header="" --left-title="" --left-footer="" ../COPYING ../*.m ../computefr/*.m  > gabor_strf.ps;
+ps2pdf gabor_strf.ps;
+rm gabor_strf.ps;

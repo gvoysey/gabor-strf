@@ -1,0 +1,43 @@
+/* Created by mdot for Matlab */
+digraph m2html {
+  decomposestrf -> noise_estimation;
+  gabor_srf_model -> srf_gabor_fun;
+  gabor_strf -> decomposestrf;
+  gabor_strf -> mse;
+  gabor_strf -> reassemble_actual_strf;
+  gabor_strf -> reassemble_strf;
+  gabor_strf -> seperability_index;
+  gabor_strf -> sfitstrf;
+  gabor_strf -> sii;
+  gabor_strf -> tfitstrf;
+  gabor_strf_batch -> setparams;
+  gabor_trf_model -> srf_gabor_fun;
+  gabor_trf_model -> trf_gabor_fun;
+  plot_strf_models -> setparams;
+  sfitstrf -> srf_gabor_fun;
+  tfitstrf -> srf_gabor_fun;
+
+  asymmetry [URL="asymmetry.html"];
+  decomposestrf [URL="decomposestrf.html"];
+  gabor_srf_model [URL="gabor_srf_model.html"];
+  gabor_strf [URL="gabor_strf.html"];
+  gabor_strf_batch [URL="gabor_strf_batch.html"];
+  gabor_strf_earlab [URL="gabor_strf_earlab.html"];
+  gabor_trf_model [URL="gabor_trf_model.html"];
+  generate_html_docs [URL="generate_html_docs.html"];
+  mse [URL="mse.html"];
+  noise_estimation [URL="noise_estimation.html"];
+  plot_strf_models [URL="plot_strf_models.html"];
+  reassemble_actual_strf [URL="reassemble_actual_strf.html"];
+  reassemble_strf [URL="reassemble_strf.html"];
+  seperability_index [URL="seperability_index.html"];
+  setparams [URL="setparams.html"];
+  sfitstrf [URL="sfitstrf.html"];
+  si [URL="si.html"];
+  sii [URL="sii.html"];
+  skew [URL="skew.html"];
+  srf_gabor_fun [URL="srf_gabor_fun.html"];
+  tfitstrf [URL="tfitstrf.html"];
+  timewarp [URL="timewarp.html"];
+  trf_gabor_fun [URL="trf_gabor_fun.html"];
+}

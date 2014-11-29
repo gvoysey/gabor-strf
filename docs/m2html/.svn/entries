@@ -1,0 +1,109 @@
+8
+
+dir
+361
+http://shadowfax.bu.edu/svn/software/gabor_strf/dev/testing/docs/m2html
+http://shadowfax.bu.edu/svn/software
+
+
+
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+99edbf63-37d7-0310-805a-c0794f3ca86c
+
+LICENSE
+file
+
+
+
+
+2006-11-22T22:31:57.956096Z
+f43cb9b37f89db739cb6237b26f0c8ee
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+GPL
+file
+
+
+
+
+2006-11-22T22:31:57.956096Z
+20454dadc46049e7bdeb066e14dc7a68
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+INSTALL
+file
+
+
+
+
+2006-11-22T22:31:57.971782Z
+0e31d897a665c8e657650f62c33b9e98
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+private
+dir
+
+@template
+dir
+
+README
+file
+
+
+
+
+2006-11-22T22:31:57.971782Z
+d9d04a4a24205f67959781ffc78d66b1
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+templates
+dir
+
+m2html.m
+file
+
+
+
+
+2006-11-22T22:31:57.987468Z
+419585bd8894276654e9406b1f12bc7f
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+
+mdot.m
+file
+
+
+
+
+2006-11-22T22:31:58.003154Z
+882adfd580fda35c798fcbe51147dfc3
+2006-10-17T05:28:10.687020Z
+346
+gvoysey
+

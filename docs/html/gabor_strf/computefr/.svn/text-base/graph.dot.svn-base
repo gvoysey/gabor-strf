@@ -1,0 +1,16 @@
+/* Created by mdot for Matlab */
+digraph m2html {
+  computefr -> getfr;
+  computefr -> getsong;
+  computefr -> getsongspec;
+
+  computefr [URL="computefr.html"];
+  getfr [URL="getfr.html"];
+  getplotsong [URL="getplotsong.html"];
+  getplotstrf [URL="getplotstrf.html"];
+  getsong [URL="getsong.html"];
+  getsongspec [URL="getsongspec.html"];
+  getstrf [URL="getstrf.html"];
+  getstrfparams [URL="getstrfparams.html"];
+  setparams [URL="setparams.html"];
+}

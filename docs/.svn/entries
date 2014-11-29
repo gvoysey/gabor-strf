@@ -1,0 +1,60 @@
+8
+
+dir
+361
+http://shadowfax.bu.edu/svn/software/gabor_strf/dev/testing/docs
+http://shadowfax.bu.edu/svn/software
+
+
+
+2006-10-20T20:52:44.176909Z
+358
+gvoysey
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+99edbf63-37d7-0310-805a-c0794f3ca86c
+
+gabor_strf.pdf
+file
+
+
+
+
+2006-11-22T22:32:01.783529Z
+51ac1021617daba5ec1154a5e6491ab5
+2006-10-20T20:15:45.652911Z
+357
+gvoysey
+has-props
+
+m2html
+dir
+
+html
+dir
+
+m2pdf
+file
+
+
+
+
+2006-11-22T22:32:01.799215Z
+c2abf1ef75662b17514b2f7a904688ee
+2006-10-17T06:17:11.088997Z
+349
+gvoysey
+has-props
+

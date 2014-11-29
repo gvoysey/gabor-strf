@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+  <title>Description of gabor_strf</title>
+  <meta name="keywords" content="gabor_strf">
+  <meta name="description" content="GABOR_STRF : STRF Modeling with Gabor Functions.">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="generator" content="m2html &copy; 2003 Guillaume Flandin">
+  <meta name="robots" content="index, follow">
+  <link type="text/css" rel="stylesheet" href="../m2html.css">
+</head>
+<body>
+<a name="_top"></a>
+<div><a href="../docs.html">Home</a> &gt;  <a href="docs.html">.</a> &gt; gabor_strf.m</div>
+
+<!--<table width="100%"><tr><td align="left"><a href="../docs.html"><img alt="<" border="0" src="../left.png">&nbsp;Master index</a></td>
+<td align="right"><a href="docs.html">Index for .&nbsp;<img alt=">" border="0" src="../right.png"></a></td></tr></table>-->
+
+<h1>gabor_strf
+</h1>
+
+<h2><a name="_name"></a>PURPOSE <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="box"><strong>GABOR_STRF : STRF Modeling with Gabor Functions.</strong></div>
+
+<h2><a name="_synopsis"></a>SYNOPSIS <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="box"><strong>function [] = gabor_strf(strfdatapath,songdatapath,target_dir) </strong></div>
+
+<h2><a name="_description"></a>DESCRIPTION <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="fragment"><pre class="comment"> GABOR_STRF : STRF Modeling with Gabor Functions.  
+              GABOR_STRF() begins the process of modeling a STRF with a series
+              of gabor functions.  It will clear all current variables, then
+              ask the user for a data set to load.  The data set should be in
+              the form of Sen, et al's &quot;oldsongs20&quot; set, and contain a matrix
+              STRF_Cell which contains the STRF to be modeled.  Progress from
+              that point is automatic; GABOR_STRF() will output a host of
+              information about the STRF, a model, and a figure containing a
+              plot of the model and a plot of the original for comparison.</pre></div>
+
+<!-- crossreference -->
+<h2><a name="_cross"></a>CROSS-REFERENCE INFORMATION <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+This function calls:
+<ul style="list-style-image:url(../matlabicon.gif)">
+<li><a href="decomposestrf.html" class="code" title="function [strfi,trf,srf,sigmas,strfi_total_number,acausal_sigmas] =decomposestrf(strf_measured)">decomposestrf</a>	DECOMPOSESTRF: STRF decomposition.</li><li><a href="mse.html" class="code" title="function[mserr] = mse(original,model)">mse</a>	MSE: Mean-Squared Error.</li><li><a href="reassemble_actual_strf.html" class="code" title="function [reassembled] = reassemble_actual_strf(sigmas,srf,trf,strfi_total_number,size_of_strf)">reassemble_actual_strf</a>	REASSEMBLE_ACTUAL_STRF :  Recombine many trfs and srfs into an overal STRFm.</li><li><a href="reassemble_strf.html" class="code" title="function [reassembled] = reassemble_strf(sigmas,srf,trf,strfi_total_number,size_of_strf)">reassemble_strf</a>	REASSEMBLE_STRF :  Recombine many model STRFi's into an overal STRFm.</li><li><a href="seperability_index.html" class="code" title="function [alpha] = seperability_index(sigmas,k)">seperability_index</a>	SEPERABILITY_INDEX: Determination of seperability.</li><li><a href="sfitstrf.html" class="code" title="function [x, resnorm, model] = sfitstrf(srfi)">sfitstrf</a>	SFITSTRF:  Spectral Receptive Field Modeling</li><li><a href="sii.html" class="code" title="function[similarity] = sii(original,model)">sii</a>	SII: Vector Similarity Index.</li><li><a href="tfitstrf.html" class="code" title="function [x, resnorm, model] = tfitstrf(srfi)">tfitstrf</a>	TFITSTRF:  Temporal Receptive Field Modeling</li></ul>
+This function is called by:
+<ul style="list-style-image:url(../matlabicon.gif)">
+</ul>
+<!-- crossreference -->
+
+
+
+<hr><address>Generated on Fri 20-Oct-2006 16:41:30 by <strong><a href="http://www.artefact.tk/software/matlab/m2html/">m2html</a></strong> &copy; 2003</address>
+</body>
+</html>

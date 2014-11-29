@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+  <title>Description of decomposestrf</title>
+  <meta name="keywords" content="decomposestrf">
+  <meta name="description" content="DECOMPOSESTRF: STRF decomposition.">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="generator" content="m2html &copy; 2003 Guillaume Flandin">
+  <meta name="robots" content="index, follow">
+  <link type="text/css" rel="stylesheet" href="../m2html.css">
+</head>
+<body>
+<a name="_top"></a>
+<div><a href="../docs.html">Home</a> &gt;  <a href="docs.html">.</a> &gt; decomposestrf.m</div>
+
+<!--<table width="100%"><tr><td align="left"><a href="../docs.html"><img alt="<" border="0" src="../left.png">&nbsp;Master index</a></td>
+<td align="right"><a href="docs.html">Index for .&nbsp;<img alt=">" border="0" src="../right.png"></a></td></tr></table>-->
+
+<h1>decomposestrf
+</h1>
+
+<h2><a name="_name"></a>PURPOSE <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="box"><strong>DECOMPOSESTRF: STRF decomposition.</strong></div>
+
+<h2><a name="_synopsis"></a>SYNOPSIS <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="box"><strong>function [strfi,trf,srf,sigmas,strfi_total_number,acausal_sigmas] =decomposestrf(strf_measured) </strong></div>
+
+<h2><a name="_description"></a>DESCRIPTION <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+<div class="fragment"><pre class="comment"> DECOMPOSESTRF: STRF decomposition.
+                [strfi,trf,srf,sigmas,k]= DECOMPOSESTRF(strf_measured) returns
+                strfi, a m x n x k matrix where strfi(:,:,k) is the kth linear
+                strf component created by SVD and ready to be modeled. trf and
+                srf are the temporal receptive field and the spectral receptive
+                field, respectively.  K is determined by noise_estimation.m ,
+                and represents the number of singular values used to create
+                strfi.</pre></div>
+
+<!-- crossreference -->
+<h2><a name="_cross"></a>CROSS-REFERENCE INFORMATION <a href="#_top"><img alt="^" border="0" src="../up.png"></a></h2>
+This function calls:
+<ul style="list-style-image:url(../matlabicon.gif)">
+<li><a href="noise_estimation.html" class="code" title="function [k,acausal_sigmas] = noise_estimation(STRF,sigmas)">noise_estimation</a>	NOISE_ESTIMATION: estimation of noise levels in STRFs.</li></ul>
+This function is called by:
+<ul style="list-style-image:url(../matlabicon.gif)">
+<li><a href="gabor_strf.html" class="code" title="function [] = gabor_strf(strfdatapath,songdatapath,target_dir)">gabor_strf</a>	GABOR_STRF : STRF Modeling with Gabor Functions.</li></ul>
+<!-- crossreference -->
+
+
+
+<hr><address>Generated on Fri 20-Oct-2006 16:41:30 by <strong><a href="http://www.artefact.tk/software/matlab/m2html/">m2html</a></strong> &copy; 2003</address>
+</body>
+</html>
